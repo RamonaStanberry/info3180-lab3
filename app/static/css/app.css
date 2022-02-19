@@ -1,3 +1,39 @@
 body {
     padding-top: 5rem;
 }
+label{
+    font-weight: bold;
+    margin-bottom:5px;
+}
+span.required{
+    color: red;
+    font-weight: bold;
+}
+input{
+    margin-top:15px;
+    padding: 15px;
+    width: 320px;
+    border-radius: 5px;
+    height: 40px;
+    border:rgb(201, 201, 201) 1px solid;
+}
+textarea{
+    padding: 15px;
+    width:400px;
+    height: 10rem;
+    resize:none;
+    border-radius: 5px;
+    border:rgb(173, 173, 173) 1px solid;
+}
+.btn{
+    background-color: #3e9ce9;
+    color: white;
+    width: 120px;
+    padding: 7px;
+}
+.flashes{
+    font-weight:bold;
+    font-size: 50px;
+    color:blue;
+    font-style: italic;
+}
